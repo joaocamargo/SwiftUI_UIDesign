@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,21 @@
 		050E6154263F56C3002EF579 /* ColorExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E6153263F56C3002EF579 /* ColorExamples.swift */; };
 		050E6156263F57E9002EF579 /* StyleGuideColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E6155263F57E9002EF579 /* StyleGuideColors.swift */; };
 		050E615826401236002EF579 /* GradientExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E615726401236002EF579 /* GradientExamples.swift */; };
+		050E615A26422292002EF579 /* ShadowExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E615926422292002EF579 /* ShadowExamples.swift */; };
+		050E615C2642B2A0002EF579 /* StyleGuideShadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E615B2642B2A0002EF579 /* StyleGuideShadows.swift */; };
+		050E615E2642B627002EF579 /* StyleGuideCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E615D2642B627002EF579 /* StyleGuideCard.swift */; };
+		050E61602642B902002EF579 /* TextFontExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E615F2642B902002EF579 /* TextFontExamples.swift */; };
+		050E6162264337DB002EF579 /* TextExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E6161264337DB002EF579 /* TextExamples.swift */; };
+		050E616526433982002EF579 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = 050E616426433982002EF579 /* LoremSwiftum */; };
+		053E2D9026440BC200E5E5CF /* StyleGuideTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E2D8F26440BC200E5E5CF /* StyleGuideTypography.swift */; };
+		053E2D922644114B00E5E5CF /* ButtonExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E2D912644114B00E5E5CF /* ButtonExamples.swift */; };
+		053E2D9E2644188000E5E5CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E2D9D2644188000E5E5CF /* AppDelegate.swift */; };
+		053E2DA02644188000E5E5CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E2D9F2644188000E5E5CF /* ContentView.swift */; };
+		053E2DA22644188300E5E5CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053E2DA12644188300E5E5CF /* Assets.xcassets */; };
+		053E2DA52644188300E5E5CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053E2DA42644188300E5E5CF /* Preview Assets.xcassets */; };
+		053E2DA82644188300E5E5CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053E2DA62644188300E5E5CF /* Main.storyboard */; };
+		053E2DAE2644188D00E5E5CF /* ButtonMacExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E2D95264417E000E5E5CF /* ButtonMacExamples.swift */; };
+		053E2DAF2644192B00E5E5CF /* ButtonExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E2D912644114B00E5E5CF /* ButtonExamples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +45,34 @@
 		050E6153263F56C3002EF579 /* ColorExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExamples.swift; sourceTree = "<group>"; };
 		050E6155263F57E9002EF579 /* StyleGuideColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideColors.swift; sourceTree = "<group>"; };
 		050E615726401236002EF579 /* GradientExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientExamples.swift; sourceTree = "<group>"; };
+		050E615926422292002EF579 /* ShadowExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowExamples.swift; sourceTree = "<group>"; };
+		050E615B2642B2A0002EF579 /* StyleGuideShadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideShadows.swift; sourceTree = "<group>"; };
+		050E615D2642B627002EF579 /* StyleGuideCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideCard.swift; sourceTree = "<group>"; };
+		050E615F2642B902002EF579 /* TextFontExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFontExamples.swift; sourceTree = "<group>"; };
+		050E6161264337DB002EF579 /* TextExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExamples.swift; sourceTree = "<group>"; };
+		053E2D8F26440BC200E5E5CF /* StyleGuideTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideTypography.swift; sourceTree = "<group>"; };
+		053E2D912644114B00E5E5CF /* ButtonExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExamples.swift; sourceTree = "<group>"; };
+		053E2D95264417E000E5E5CF /* ButtonMacExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMacExamples.swift; sourceTree = "<group>"; };
+		053E2D9B2644188000E5E5CF /* UIDesignForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDesignForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		053E2D9D2644188000E5E5CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		053E2D9F2644188000E5E5CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		053E2DA12644188300E5E5CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		053E2DA42644188300E5E5CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		053E2DA72644188300E5E5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		053E2DA92644188300E5E5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053E2DAA2644188300E5E5CF /* UIDesignForMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UIDesignForMac.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		050E6138263F4F4E002EF579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050E616526433982002EF579 /* LoremSwiftum in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053E2D982644188000E5E5CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				050E613D263F4F4E002EF579 /* UIDesign */,
+				053E2D9C2644188000E5E5CF /* UIDesignForMac */,
 				050E613C263F4F4E002EF579 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				050E613B263F4F4E002EF579 /* UIDesign.app */,
+				053E2D9B2644188000E5E5CF /* UIDesignForMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,8 +129,38 @@
 				050E6153263F56C3002EF579 /* ColorExamples.swift */,
 				050E6155263F57E9002EF579 /* StyleGuideColors.swift */,
 				050E615726401236002EF579 /* GradientExamples.swift */,
+				050E615926422292002EF579 /* ShadowExamples.swift */,
+				050E615B2642B2A0002EF579 /* StyleGuideShadows.swift */,
+				050E615D2642B627002EF579 /* StyleGuideCard.swift */,
+				050E615F2642B902002EF579 /* TextFontExamples.swift */,
+				050E6161264337DB002EF579 /* TextExamples.swift */,
+				053E2D8F26440BC200E5E5CF /* StyleGuideTypography.swift */,
+				053E2D912644114B00E5E5CF /* ButtonExamples.swift */,
 			);
 			path = StyleGiuide;
+			sourceTree = "<group>";
+		};
+		053E2D9C2644188000E5E5CF /* UIDesignForMac */ = {
+			isa = PBXGroup;
+			children = (
+				053E2D95264417E000E5E5CF /* ButtonMacExamples.swift */,
+				053E2D9D2644188000E5E5CF /* AppDelegate.swift */,
+				053E2D9F2644188000E5E5CF /* ContentView.swift */,
+				053E2DA12644188300E5E5CF /* Assets.xcassets */,
+				053E2DA62644188300E5E5CF /* Main.storyboard */,
+				053E2DA92644188300E5E5CF /* Info.plist */,
+				053E2DAA2644188300E5E5CF /* UIDesignForMac.entitlements */,
+				053E2DA32644188300E5E5CF /* Preview Content */,
+			);
+			path = UIDesignForMac;
+			sourceTree = "<group>";
+		};
+		053E2DA32644188300E5E5CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				053E2DA42644188300E5E5CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,8 +179,28 @@
 			dependencies = (
 			);
 			name = UIDesign;
+			packageProductDependencies = (
+				050E616426433982002EF579 /* LoremSwiftum */,
+			);
 			productName = UIDesign;
 			productReference = 050E613B263F4F4E002EF579 /* UIDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		053E2D9A2644188000E5E5CF /* UIDesignForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053E2DAB2644188300E5E5CF /* Build configuration list for PBXNativeTarget "UIDesignForMac" */;
+			buildPhases = (
+				053E2D972644188000E5E5CF /* Sources */,
+				053E2D982644188000E5E5CF /* Frameworks */,
+				053E2D992644188000E5E5CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIDesignForMac;
+			productName = UIDesignForMac;
+			productReference = 053E2D9B2644188000E5E5CF /* UIDesignForMac.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,6 +215,9 @@
 					050E613A263F4F4E002EF579 = {
 						CreatedOnToolsVersion = 12.5;
 					};
+					053E2D9A2644188000E5E5CF = {
+						CreatedOnToolsVersion = 12.5;
+					};
 				};
 			};
 			buildConfigurationList = 050E6136263F4F4E002EF579 /* Build configuration list for PBXProject "UIDesign" */;
@@ -135,11 +229,15 @@
 				Base,
 			);
 			mainGroup = 050E6132263F4F4D002EF579;
+			packageReferences = (
+				050E616326433982002EF579 /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
+			);
 			productRefGroup = 050E613C263F4F4E002EF579 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				050E613A263F4F4E002EF579 /* UIDesign */,
+				053E2D9A2644188000E5E5CF /* UIDesignForMac */,
 			);
 		};
 /* End PBXProject section */
@@ -155,6 +253,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		053E2D992644188000E5E5CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053E2DA82644188300E5E5CF /* Main.storyboard in Resources */,
+				053E2DA52644188300E5E5CF /* Preview Assets.xcassets in Resources */,
+				053E2DA22644188300E5E5CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -164,10 +272,28 @@
 			files = (
 				050E6154263F56C3002EF579 /* ColorExamples.swift in Sources */,
 				050E6156263F57E9002EF579 /* StyleGuideColors.swift in Sources */,
+				050E615C2642B2A0002EF579 /* StyleGuideShadows.swift in Sources */,
+				053E2D9026440BC200E5E5CF /* StyleGuideTypography.swift in Sources */,
 				050E613F263F4F4E002EF579 /* AppDelegate.swift in Sources */,
+				050E615A26422292002EF579 /* ShadowExamples.swift in Sources */,
+				050E6162264337DB002EF579 /* TextExamples.swift in Sources */,
 				050E6141263F4F4E002EF579 /* SceneDelegate.swift in Sources */,
+				050E615E2642B627002EF579 /* StyleGuideCard.swift in Sources */,
+				053E2D922644114B00E5E5CF /* ButtonExamples.swift in Sources */,
 				050E615826401236002EF579 /* GradientExamples.swift in Sources */,
+				050E61602642B902002EF579 /* TextFontExamples.swift in Sources */,
 				050E6143263F4F4E002EF579 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053E2D972644188000E5E5CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053E2DA02644188000E5E5CF /* ContentView.swift in Sources */,
+				053E2D9E2644188000E5E5CF /* AppDelegate.swift in Sources */,
+				053E2DAF2644192B00E5E5CF /* ButtonExamples.swift in Sources */,
+				053E2DAE2644188D00E5E5CF /* ButtonMacExamples.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +306,14 @@
 				050E614A263F4F55002EF579 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		053E2DA62644188300E5E5CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053E2DA72644188300E5E5CF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,6 +477,56 @@
 			};
 			name = Release;
 		};
+		053E2DAC2644188300E5E5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UIDesignForMac/UIDesignForMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"UIDesignForMac/Preview Content\"";
+				DEVELOPMENT_TEAM = ZLRHSN44X4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UIDesignForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = camargo.joao.com.br.UIDesignForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		053E2DAD2644188300E5E5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UIDesignForMac/UIDesignForMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"UIDesignForMac/Preview Content\"";
+				DEVELOPMENT_TEAM = ZLRHSN44X4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UIDesignForMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = camargo.joao.com.br.UIDesignForMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -364,7 +548,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		053E2DAB2644188300E5E5CF /* Build configuration list for PBXNativeTarget "UIDesignForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053E2DAC2644188300E5E5CF /* Debug */,
+				053E2DAD2644188300E5E5CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		050E616326433982002EF579 /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		050E616426433982002EF579 /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 050E616326433982002EF579 /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 050E6133263F4F4D002EF579 /* Project object */;
 }
