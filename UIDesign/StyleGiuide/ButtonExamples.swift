@@ -32,17 +32,30 @@ struct ButtonExamples: View {
                 Text("Default")
             }.buttonStyle(BorderlessButtonStyle())
             
-            Button(action: {}) {
+            Button(action: {
+                print("enabled button presed")
+            }) {
                 Text("simple button style")
             }.buttonStyle(SimpleButtonStyle())
             
-            Button(action: {}) {
+            Button(action: {
+                print("enabled button presed")
+            }) {
                 Text("advanced button style")
             }.buttonStyle(AdvancedButtonStyle())
             
-            Button(action: {}) {
+            Button(action: {
+                print("enabled button presed")
+
+            }) {
                 Text("advanced button style")
-            }.buttonStyle(AdvancedButtonStyle(color: Color("Primary")))
+            }.buttonStyle(AdvancedButtonStyle(color: Color("Primary"), isEnabled: true))
+            
+            Button(action: {
+                print("disabled button presed")
+            }) {
+                Text("advanced button style disabled")
+            }.buttonStyle(AdvancedButtonStyle(color: Color("Primary"), isEnabled: false))
             
         }
         
@@ -57,28 +70,3 @@ struct ButtonExamples_Previews: PreviewProvider {
 }
 
 
-struct SimpleButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        return configuration.label.modifier(BodyText()).foregroundColor(.white).padding().background(accentGradient.cornerRadius(5)).modifier(EShadow(elevation: configuration.isPressed ? .low : .middle))
-    }
-}
-
-
-struct AdvancedButtonStyle: PrimitiveButtonStyle{
-    
-    ///no curso é assim
-//    let color: Color
-//
-//    init(color: Color = Color("Accent")){
-//        self.color = color
-//    }
-    
-    ///prefiro assim
-    
-    var color: Color? = Color("Accent")
-    
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label.foregroundColor(color).padding()
-            .modifier(Header3()).background(Color("Background3")).cornerRadius(5).modifier(EShadow(elevation: .middle))
-    }
-}

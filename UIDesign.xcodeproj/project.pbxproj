@@ -31,6 +31,8 @@
 		053E2DA82644188300E5E5CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 053E2DA62644188300E5E5CF /* Main.storyboard */; };
 		053E2DAE2644188D00E5E5CF /* ButtonMacExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E2D95264417E000E5E5CF /* ButtonMacExamples.swift */; };
 		053E2DAF2644192B00E5E5CF /* ButtonExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E2D912644114B00E5E5CF /* ButtonExamples.swift */; };
+		057682252645DA8B006F6DAE /* StyleGuideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057682242645DA8B006F6DAE /* StyleGuideButton.swift */; };
+		057682272645DDE1006F6DAE /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057682262645DDE1006F6DAE /* CalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,8 @@
 		053E2DA72644188300E5E5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		053E2DA92644188300E5E5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		053E2DAA2644188300E5E5CF /* UIDesignForMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UIDesignForMac.entitlements; sourceTree = "<group>"; };
+		057682242645DA8B006F6DAE /* StyleGuideButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideButton.swift; sourceTree = "<group>"; };
+		057682262645DDE1006F6DAE /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,8 @@
 				050E6161264337DB002EF579 /* TextExamples.swift */,
 				053E2D8F26440BC200E5E5CF /* StyleGuideTypography.swift */,
 				053E2D912644114B00E5E5CF /* ButtonExamples.swift */,
+				057682242645DA8B006F6DAE /* StyleGuideButton.swift */,
+				057682262645DDE1006F6DAE /* CalculatorView.swift */,
 			);
 			path = StyleGiuide;
 			sourceTree = "<group>";
@@ -271,9 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				050E6154263F56C3002EF579 /* ColorExamples.swift in Sources */,
+				057682272645DDE1006F6DAE /* CalculatorView.swift in Sources */,
 				050E6156263F57E9002EF579 /* StyleGuideColors.swift in Sources */,
 				050E615C2642B2A0002EF579 /* StyleGuideShadows.swift in Sources */,
 				053E2D9026440BC200E5E5CF /* StyleGuideTypography.swift in Sources */,
+				057682252645DA8B006F6DAE /* StyleGuideButton.swift in Sources */,
 				050E613F263F4F4E002EF579 /* AppDelegate.swift in Sources */,
 				050E615A26422292002EF579 /* ShadowExamples.swift in Sources */,
 				050E6162264337DB002EF579 /* TextExamples.swift in Sources */,

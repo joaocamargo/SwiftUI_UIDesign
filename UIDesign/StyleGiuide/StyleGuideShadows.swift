@@ -28,16 +28,17 @@ enum Elevation {
 
 struct EShadow: ViewModifier {
     let elevation: Elevation
+    var color: Color = .black
     
     func body(content: Content) -> some View {
         
         switch elevation {
         case .low:
-            return content.shadow(color: .black.opacity(0.05), radius: 5, x: 5, y: 5)
+            return content.shadow(color: color.opacity(0.05), radius: 5, x: 5, y: 5)
         case .middle:
-            return content.shadow(color: .black.opacity(0.15), radius: 10, x: 7, y: 7)
+            return content.shadow(color: color.opacity(0.15), radius: 10, x: 7, y: 7)
         case . high:
-            return content.shadow(color: .black.opacity(0.02), radius: 2, x: 10, y: 10)
+            return content.shadow(color: color.opacity(0.02), radius: 2, x: 10, y: 10)
         }
     }
 }
