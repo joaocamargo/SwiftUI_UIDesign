@@ -33,6 +33,9 @@
 		053E2DAF2644192B00E5E5CF /* ButtonExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053E2D912644114B00E5E5CF /* ButtonExamples.swift */; };
 		057682252645DA8B006F6DAE /* StyleGuideButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057682242645DA8B006F6DAE /* StyleGuideButton.swift */; };
 		057682272645DDE1006F6DAE /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057682262645DDE1006F6DAE /* CalculatorView.swift */; };
+		0576822A2646AA18006F6DAE /* ShapeExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057682292646AA18006F6DAE /* ShapeExamples.swift */; };
+		0576822C2646AC72006F6DAE /* ShapeDrawingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576822B2646AC72006F6DAE /* ShapeDrawingExample.swift */; };
+		0576822E2646B0D9006F6DAE /* ShapeModifiersExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576822D2646B0D9006F6DAE /* ShapeModifiersExamples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,9 @@
 		053E2DAA2644188300E5E5CF /* UIDesignForMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UIDesignForMac.entitlements; sourceTree = "<group>"; };
 		057682242645DA8B006F6DAE /* StyleGuideButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideButton.swift; sourceTree = "<group>"; };
 		057682262645DDE1006F6DAE /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		057682292646AA18006F6DAE /* ShapeExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeExamples.swift; sourceTree = "<group>"; };
+		0576822B2646AC72006F6DAE /* ShapeDrawingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeDrawingExample.swift; sourceTree = "<group>"; };
+		0576822D2646B0D9006F6DAE /* ShapeModifiersExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeModifiersExamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 		050E613D263F4F4E002EF579 /* UIDesign */ = {
 			isa = PBXGroup;
 			children = (
+				057682282646A9EB006F6DAE /* ImageDesignProjects */,
 				050E6152263F5695002EF579 /* StyleGiuide */,
 				050E613E263F4F4E002EF579 /* AppDelegate.swift */,
 				050E6140263F4F4E002EF579 /* SceneDelegate.swift */,
@@ -167,6 +174,16 @@
 				053E2DA42644188300E5E5CF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		057682282646A9EB006F6DAE /* ImageDesignProjects */ = {
+			isa = PBXGroup;
+			children = (
+				057682292646AA18006F6DAE /* ShapeExamples.swift */,
+				0576822B2646AC72006F6DAE /* ShapeDrawingExample.swift */,
+				0576822D2646B0D9006F6DAE /* ShapeModifiersExamples.swift */,
+			);
+			path = ImageDesignProjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +298,7 @@
 				050E6156263F57E9002EF579 /* StyleGuideColors.swift in Sources */,
 				050E615C2642B2A0002EF579 /* StyleGuideShadows.swift in Sources */,
 				053E2D9026440BC200E5E5CF /* StyleGuideTypography.swift in Sources */,
+				0576822C2646AC72006F6DAE /* ShapeDrawingExample.swift in Sources */,
 				057682252645DA8B006F6DAE /* StyleGuideButton.swift in Sources */,
 				050E613F263F4F4E002EF579 /* AppDelegate.swift in Sources */,
 				050E615A26422292002EF579 /* ShadowExamples.swift in Sources */,
@@ -290,7 +308,9 @@
 				053E2D922644114B00E5E5CF /* ButtonExamples.swift in Sources */,
 				050E615826401236002EF579 /* GradientExamples.swift in Sources */,
 				050E61602642B902002EF579 /* TextFontExamples.swift in Sources */,
+				0576822A2646AA18006F6DAE /* ShapeExamples.swift in Sources */,
 				050E6143263F4F4E002EF579 /* ContentView.swift in Sources */,
+				0576822E2646B0D9006F6DAE /* ShapeModifiersExamples.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
