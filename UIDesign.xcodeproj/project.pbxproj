@@ -36,6 +36,19 @@
 		0576822A2646AA18006F6DAE /* ShapeExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057682292646AA18006F6DAE /* ShapeExamples.swift */; };
 		0576822C2646AC72006F6DAE /* ShapeDrawingExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576822B2646AC72006F6DAE /* ShapeDrawingExample.swift */; };
 		0576822E2646B0D9006F6DAE /* ShapeModifiersExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576822D2646B0D9006F6DAE /* ShapeModifiersExamples.swift */; };
+		057682302647F2F5006F6DAE /* CustomShapeDrawings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576822F2647F2F5006F6DAE /* CustomShapeDrawings.swift */; };
+		057682322647FAAB006F6DAE /* SystemIconsExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057682312647FAAB006F6DAE /* SystemIconsExamples.swift */; };
+		057682342647FDA4006F6DAE /* ImageSizingOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057682332647FDA4006F6DAE /* ImageSizingOverview.swift */; };
+		057682362648012B006F6DAE /* ImageColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057682352648012B006F6DAE /* ImageColorView.swift */; };
+		05768238264802DD006F6DAE /* BlurOverlayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05768237264802DD006F6DAE /* BlurOverlayExample.swift */; };
+		0576823C26480484006F6DAE /* UsingShapesImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576823B26480484006F6DAE /* UsingShapesImages.swift */; };
+		0576823E264808C6006F6DAE /* SpecialEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576823D264808C6006F6DAE /* SpecialEffectView.swift */; };
+		0576824126480DE5006F6DAE /* InteractiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576824026480DE5006F6DAE /* InteractiveView.swift */; };
+		057682432648128A006F6DAE /* AnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057682422648128A006F6DAE /* AnimationExample.swift */; };
+		0576824726481848006F6DAE /* AcountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576824626481848006F6DAE /* AcountManager.swift */; };
+		0576824926481880006F6DAE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576824826481880006F6DAE /* SignUpView.swift */; };
+		0576824B26485F95006F6DAE /* ComplexDataExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576824A26485F95006F6DAE /* ComplexDataExample.swift */; };
+		0576824D264865CF006F6DAE /* StoreInEnvironmentExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576824C264865CF006F6DAE /* StoreInEnvironmentExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +84,19 @@
 		057682292646AA18006F6DAE /* ShapeExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeExamples.swift; sourceTree = "<group>"; };
 		0576822B2646AC72006F6DAE /* ShapeDrawingExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeDrawingExample.swift; sourceTree = "<group>"; };
 		0576822D2646B0D9006F6DAE /* ShapeModifiersExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeModifiersExamples.swift; sourceTree = "<group>"; };
+		0576822F2647F2F5006F6DAE /* CustomShapeDrawings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeDrawings.swift; sourceTree = "<group>"; };
+		057682312647FAAB006F6DAE /* SystemIconsExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIconsExamples.swift; sourceTree = "<group>"; };
+		057682332647FDA4006F6DAE /* ImageSizingOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSizingOverview.swift; sourceTree = "<group>"; };
+		057682352648012B006F6DAE /* ImageColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageColorView.swift; sourceTree = "<group>"; };
+		05768237264802DD006F6DAE /* BlurOverlayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurOverlayExample.swift; sourceTree = "<group>"; };
+		0576823B26480484006F6DAE /* UsingShapesImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingShapesImages.swift; sourceTree = "<group>"; };
+		0576823D264808C6006F6DAE /* SpecialEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffectView.swift; sourceTree = "<group>"; };
+		0576824026480DE5006F6DAE /* InteractiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveView.swift; sourceTree = "<group>"; };
+		057682422648128A006F6DAE /* AnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExample.swift; sourceTree = "<group>"; };
+		0576824626481848006F6DAE /* AcountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcountManager.swift; sourceTree = "<group>"; };
+		0576824826481880006F6DAE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		0576824A26485F95006F6DAE /* ComplexDataExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplexDataExample.swift; sourceTree = "<group>"; };
+		0576824C264865CF006F6DAE /* StoreInEnvironmentExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInEnvironmentExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +139,7 @@
 		050E613D263F4F4E002EF579 /* UIDesign */ = {
 			isa = PBXGroup;
 			children = (
+				0576823F26480DD5006F6DAE /* DataFlow */,
 				057682282646A9EB006F6DAE /* ImageDesignProjects */,
 				050E6152263F5695002EF579 /* StyleGiuide */,
 				050E613E263F4F4E002EF579 /* AppDelegate.swift */,
@@ -179,11 +206,47 @@
 		057682282646A9EB006F6DAE /* ImageDesignProjects */ = {
 			isa = PBXGroup;
 			children = (
+				0576823A26480466006F6DAE /* Images */,
+				0576823926480457006F6DAE /* Shapes */,
+				0576823B26480484006F6DAE /* UsingShapesImages.swift */,
+			);
+			path = ImageDesignProjects;
+			sourceTree = "<group>";
+		};
+		0576823926480457006F6DAE /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
 				057682292646AA18006F6DAE /* ShapeExamples.swift */,
 				0576822B2646AC72006F6DAE /* ShapeDrawingExample.swift */,
 				0576822D2646B0D9006F6DAE /* ShapeModifiersExamples.swift */,
+				0576822F2647F2F5006F6DAE /* CustomShapeDrawings.swift */,
 			);
-			path = ImageDesignProjects;
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		0576823A26480466006F6DAE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				057682312647FAAB006F6DAE /* SystemIconsExamples.swift */,
+				057682332647FDA4006F6DAE /* ImageSizingOverview.swift */,
+				057682352648012B006F6DAE /* ImageColorView.swift */,
+				05768237264802DD006F6DAE /* BlurOverlayExample.swift */,
+				0576823D264808C6006F6DAE /* SpecialEffectView.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0576823F26480DD5006F6DAE /* DataFlow */ = {
+			isa = PBXGroup;
+			children = (
+				0576824026480DE5006F6DAE /* InteractiveView.swift */,
+				057682422648128A006F6DAE /* AnimationExample.swift */,
+				0576824A26485F95006F6DAE /* ComplexDataExample.swift */,
+				0576824C264865CF006F6DAE /* StoreInEnvironmentExample.swift */,
+				0576824626481848006F6DAE /* AcountManager.swift */,
+				0576824826481880006F6DAE /* SignUpView.swift */,
+			);
+			path = DataFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,24 +356,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				057682322647FAAB006F6DAE /* SystemIconsExamples.swift in Sources */,
 				050E6154263F56C3002EF579 /* ColorExamples.swift in Sources */,
+				0576823C26480484006F6DAE /* UsingShapesImages.swift in Sources */,
 				057682272645DDE1006F6DAE /* CalculatorView.swift in Sources */,
+				057682432648128A006F6DAE /* AnimationExample.swift in Sources */,
 				050E6156263F57E9002EF579 /* StyleGuideColors.swift in Sources */,
+				0576824126480DE5006F6DAE /* InteractiveView.swift in Sources */,
 				050E615C2642B2A0002EF579 /* StyleGuideShadows.swift in Sources */,
 				053E2D9026440BC200E5E5CF /* StyleGuideTypography.swift in Sources */,
 				0576822C2646AC72006F6DAE /* ShapeDrawingExample.swift in Sources */,
 				057682252645DA8B006F6DAE /* StyleGuideButton.swift in Sources */,
+				0576824B26485F95006F6DAE /* ComplexDataExample.swift in Sources */,
 				050E613F263F4F4E002EF579 /* AppDelegate.swift in Sources */,
+				057682302647F2F5006F6DAE /* CustomShapeDrawings.swift in Sources */,
 				050E615A26422292002EF579 /* ShadowExamples.swift in Sources */,
 				050E6162264337DB002EF579 /* TextExamples.swift in Sources */,
+				0576824926481880006F6DAE /* SignUpView.swift in Sources */,
+				057682362648012B006F6DAE /* ImageColorView.swift in Sources */,
+				05768238264802DD006F6DAE /* BlurOverlayExample.swift in Sources */,
 				050E6141263F4F4E002EF579 /* SceneDelegate.swift in Sources */,
 				050E615E2642B627002EF579 /* StyleGuideCard.swift in Sources */,
 				053E2D922644114B00E5E5CF /* ButtonExamples.swift in Sources */,
+				0576823E264808C6006F6DAE /* SpecialEffectView.swift in Sources */,
 				050E615826401236002EF579 /* GradientExamples.swift in Sources */,
 				050E61602642B902002EF579 /* TextFontExamples.swift in Sources */,
 				0576822A2646AA18006F6DAE /* ShapeExamples.swift in Sources */,
+				0576824D264865CF006F6DAE /* StoreInEnvironmentExample.swift in Sources */,
 				050E6143263F4F4E002EF579 /* ContentView.swift in Sources */,
+				0576824726481848006F6DAE /* AcountManager.swift in Sources */,
 				0576822E2646B0D9006F6DAE /* ShapeModifiersExamples.swift in Sources */,
+				057682342647FDA4006F6DAE /* ImageSizingOverview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

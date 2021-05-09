@@ -10,6 +10,11 @@ import SwiftUI
 struct StyleGuideButton: View {
     var body: some View {
         VStack(spacing: 30){
+            
+            Button(action: {}) {
+                Text("SimpleButtonStyle")
+            }.buttonStyle(SimpleButtonStyle(isDisabled: false))
+            
             Button(action: {}) {
                 Text("SimpleButtonStyle")
             }.buttonStyle(SimpleButtonStyle())
@@ -45,8 +50,13 @@ struct StyleGuideButton_Previews: PreviewProvider {
 
 
 struct SimpleButtonStyle: ButtonStyle {
+    
+    var isDisabled: Bool = true
+    
     func makeBody(configuration: Configuration) -> some View {
-        return configuration.label.modifier(BodyText()).foregroundColor(.white).padding().background(accentGradient.cornerRadius(5)).modifier(EShadow(elevation: configuration.isPressed ? .low : .middle))
+        return configuration.label.modifier(BodyText()).foregroundColor(.white)
+            .padding().background(isDisabled ? grayGradient.cornerRadius(5) : accentGradient.cornerRadius(5))
+            .modifier(EShadow(elevation: configuration.isPressed ? .low : .middle))
     }
 }
 

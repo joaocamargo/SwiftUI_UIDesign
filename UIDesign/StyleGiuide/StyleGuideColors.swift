@@ -12,6 +12,8 @@ let accentGradient = LinearGradient(gradient: Gradient(colors: [Color("Accent"),
 
 let primaryGradient = LinearGradient(gradient: Gradient(colors: [Color("Primary"),Color("Secondary")]), startPoint: .topLeading, endPoint: .bottomTrailing)
 
+let grayGradient = LinearGradient(gradient: Gradient(colors: [Color("Gray2")]), startPoint: .topLeading, endPoint: .bottomTrailing)
+
 struct StyleGuideColors: View {
     var body: some View {
         ZStack {
